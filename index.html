@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <link rel="stylesheet" href="/project web/index.css">
+</head>
+<body>
+    
+    <div class="container">
+        <header>
+            <img src="/project web/image/IMG_20240620_155043.jpg" alt="Profile Image">
+            <h1>Mohammad Javad Rezaei</h1>
+            <p>Web Development Programmer</p>
+        </header>
+        
+        <section class="about">
+            <h2>About Me</h2>
+            <p>Front-end developer with one year of experience in web development, proficient in HTML, CSS, JavaScript, and the React library. Highly motivated and eager to learn, I am on the path to expanding my technical knowledge and am currently studying C# and the .NET framework to enhance my programming skills. My goal is to improve the quality of coding and provide innovative solutions for web development. With a focus on details and a commitment to continuous learning, I strive to showcase my talent and abilities in this field to the best of my ability.</p>
+        </section>
+        
+        <section class="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>1. HTML And CSS Tailwind</li>
+                <li>2. JavaScript & React Libary</li>
+                <li>3. C# & ASP.Net</li>
+            </ul>
+            <button class="btn add-btn" onclick="addItem('skills-list', 'مهارت جدید')">Add Skills</button>
+            <button class="btn remove-btn" onclick="removeLastItem('skills-list')">Delete Skills</button>
+        </section>
+        
+        <section class="experience">
+            <h2>Employment History</h2>
+            <ul>
+                <li>Frontend web development freelance project At August to Octobr 2024</li>
+                
+            </ul>
+            <button class="btn add-btn" onclick="addItem('experience-list', 'شغل جدید')">Add New Experience</button>
+            <button class="btn remove-btn" onclick="removeLastItem('experience-list')">Delete Experience</button>
+        </section>
+        
+        <section class="education">
+            <h2>Education</h2>
+            <ul>
+                <li>Bachelor of Computer Engineering At Shamsipour Technical and Vocational College</li><br>
+            </ul>
+            <button class="btn add-btn" onclick="addItem('education-list', 'مدرک جدید')">Add Education</button>
+            <button class="btn remove-btn" onclick="removeLastItem('education-list')">Remove Experience</button>                
+        </section>
+
+        <section class="languages">
+            <h2>Langueges</h2>
+            <ul>
+                <li>1. Persian</li>
+                <li>2. English - Intermediate</li>
+            </ul>
+            <button class="btn add-btn" onclick="addItem('languages-list', 'زبان جدید')">Add New Languege</button>
+            <button class="btn remove-btn" onclick="removeLastItem('languages-list')">Delete Languege</button>
+        </section>
+        
+        <section class="contact">
+            <h2>contact</h2>
+            <p>Email: Mohaadjavadrezaei.2005@gmail.com</p>
+            <p>Phone Number: 09367446295</p>
+            <p><a href="#">لینکدین</a> | <a href="#">گیت‌هاب</a></p>
+        </section>
+    </div>
+    <script src="/project web/index.js"></script>
+</body>
+</html>
